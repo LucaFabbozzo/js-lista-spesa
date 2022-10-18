@@ -11,9 +11,24 @@ const output = document.getElementById('output');
 
 const listaSpesa = ['Pane', 'Latte', 'Pasta', 'Carne', 'Biscotti', 'Uova'];
 
+// ciclo for
 
-for(let i = 0; i < listaSpesa.length; i++) {
+
+// for(let i = 0; i < listaSpesa.length; i++) {
+//   const li = document.createElement('li');
+//   li.innerHTML = listaSpesa[i];
+//   output.append(li);
+// }
+
+
+// ciclo while
+
+c = 0;
+
+while (c < listaSpesa.length) {
   const li = document.createElement('li');
-  li.innerHTML = listaSpesa[i];
+  li.innerHTML = listaSpesa[c];
   output.append(li);
+
+  c++;
 }
