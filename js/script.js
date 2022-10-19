@@ -14,11 +14,11 @@ const listaSpesa = ['Pane', 'Latte', 'Pasta', 'Carne', 'Biscotti', 'Uova'];
 // ciclo for
 
 
-// for(let i = 0; i < listaSpesa.length; i++) {
-//   const li = document.createElement('li');
-//   li.innerHTML = listaSpesa[i];
-//   output.append(li);
-// }
+for(let i = 0; i < listaSpesa.length; i++) {
+  const li = document.createElement('li');
+  li.innerHTML = listaSpesa[i];
+  output.append(li);
+}
 
 
 // ciclo while
