@@ -8,6 +8,10 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.dflex {
+  display: flex;
+}
+
 h1 {
   text-align: center;
   color: #262626;
@@ -21,10 +25,11 @@ h1 {
   margin: 40px auto;
   background-color: #edecec;
   text-align: center;
-  padding-top: 20px;
+  padding: 10px 20px;
   padding-bottom: 30px;
   border: 1px solid #242424;
   border-radius: 5px;
+  
 }
 
 ul li {
