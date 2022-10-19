@@ -7,7 +7,7 @@
 // - Ricordiamoci di incrementare il contatore, o comunque di inserire una condizione di uscita, all’interno ciclo while
 
 const output = document.getElementById('output');
-
+const outputDue = document.getElementById('outputdue');
 
 const listaSpesa = ['Pane', 'Latte', 'Pasta', 'Carne', 'Biscotti', 'Uova'];
 
@@ -28,7 +28,7 @@ c = 0;
 while (c < listaSpesa.length) {
   const li = document.createElement('li');
   li.innerHTML = listaSpesa[c];
-  output.append(li);
+  outputDue.append(li);
 
   c++;
 }
